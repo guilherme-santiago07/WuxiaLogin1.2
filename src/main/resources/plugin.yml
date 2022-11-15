@@ -1,0 +1,24 @@
+name: WuxiaLogin
+version: '${project.version}'
+main: me.dev.santiago.WuxiaLogin
+authors: [ GuilhermeSantiago ]
+description: complete and reworked login plugin!
+website: https://www.github.com/guilherme-santiago7/
+commands:
+  login:
+    description: Comando para entrar no servidor
+    aliases: [logar, entrar]
+    permission: wuxia.login
+  registrar:
+    description: Comando para registrar-se no servidor
+    aliases: [register]
+    permission: wuxia.register
+  trocarsenha:
+    description: Comando para trocar sua senha
+    aliases: [changepass]
+    permission: wuxia.changepass
+  logoff:
+    description: Comando para deslogar
+    aliases: [logout, unlogin, deslogar]
+    permission: wuxia.logoff
+
